@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "Skill_Swap_backend": {
+      "main": "src/Skill_Swap_backend/main.mo",
+      "type": "motoko"
+    },
+    "Skill_Swap_frontend": {
+      "dependencies": [
+        "Skill_Swap_backend"
+      ],
+      "source": [
+        "src/Skill_Swap_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "Skill_Swap_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
