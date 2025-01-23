@@ -14,5 +14,13 @@
   "type": "module",
   "workspaces": [
     "src/Skill_Swap_frontend"
-  ]
+  ],
+  "dependencies": {
+    "react-router-dom": "^7.1.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.0"
+  }
 }
