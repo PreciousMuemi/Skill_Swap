@@ -121,7 +121,6 @@ const ChatSystem = () => {
       </div>
     </div>
   );
-
 };
 export default ChatSystem;
 
