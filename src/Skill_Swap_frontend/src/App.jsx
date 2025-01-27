@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext'; // Import AuthProvider
 import { Skill_Swap_backend } from '../../declarations/Skill_Swap_backend'; // Relative path
 import Navbar from './components/Navbar';
-
+import ConfigDisplay from './components/ConfigDisplay';
 function App() {
   return (
     <Router>
@@ -14,6 +14,7 @@ function App() {
             {/* ... your routes */}
           </Routes>
           <ChatSystem />
+          <ConfigDisplay />
         </div>
       </AuthProvider>
     </Router>
